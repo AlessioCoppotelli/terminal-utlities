@@ -11,7 +11,7 @@ read -p "Run [go] to start or [EXIT] to close : " command
 
 if [ "$command" == "go" ]
   then
-  path="./LBTE-doc/17-11-2022/"
+  path="./../LBTE-doc/17-11-2022/"
   echo "Selected path : " $path
   for file in "$path"*; do echo "$file"; done
 
